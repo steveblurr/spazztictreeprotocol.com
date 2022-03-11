@@ -19,14 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: STP-Steve Blog
-email: stp.steve.dev@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-domain: spazztictreeprotocol.com
+# email: stp.steve.dev@gmail.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+
 url: "https://spazztictreeprotocol.com" # the subpath of your site, e.g. /blog
-baseurl: "/spazztictreeprotocol.com/"
 twitter_username: spazztic3prtcl
 github_username:  steveblurr
 show_excerpts: true
