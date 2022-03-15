@@ -11,14 +11,14 @@ footer {
 
 /* HOME PAGE */
 .main-div {
-   
-    text-align: center;
+   padding-top: 30px;
+   text-align: center;
 }
 
 .index-name {
   padding-top: 20px;
   font-family: 'Khand', sans-serif;
-  font-size: 5.5rem;
+  font-size: 4.5rem;
   font-weight: 600;
 }
 
