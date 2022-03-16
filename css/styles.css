@@ -28,10 +28,24 @@ footer {
 }
 
 
+
 .intro-div {
   text-align: left;
   padding-top: 10px;
 }
+
+@media only screen and (max-width: 600px)
+{.intro-div {
+    text-align: left;
+    padding-top: 10px;
+  }
+
+  .index-intro {
+    font-size: 1.2rem;
+  }
+
+}
+
 
 .index-intro {
   font-family: 'Titillium Web', sans-serif;
