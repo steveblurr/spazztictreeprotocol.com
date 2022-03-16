@@ -12,6 +12,11 @@ footer {
 /* HOME PAGE */
 @media screen and (max-width: 600px){
  
+ .nav-con {
+    padding-left: 30px;
+    padding-right: 20px;
+    }
+    
  .main-div {
      padding-top: 40px;
      text-align: center;
@@ -52,7 +57,7 @@ footer {
 
 .index-intro {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .index-image{
