@@ -1,11 +1,12 @@
 html, body {
-    position: absolute;
+    position: relative;
     min-height: 100%;
     min-height: 100vh;
     overflow: auto;
 }
 
 footer {
+    height: 60px;
     position: fixed;
     bottom: 0;
     width: 100%;
