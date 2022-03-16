@@ -34,8 +34,8 @@ footer {
   padding-top: 10px;
 }
 
-@media only screen and (max-width: 600px)
-{.intro-div {
+@media only screen and (min-width: 600px){
+  .intro-div {
     text-align: left;
     padding-top: 10px;
   }
