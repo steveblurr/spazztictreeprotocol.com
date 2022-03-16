@@ -61,32 +61,27 @@ foot-section {
 }
 
 @media only screen and (min-width: 600px){
-  .intro-div {
-    text-align: left;
-    padding-top: 10px;
-  }
+      .intro-div {
+        text-align: left;
+        padding-top: 10px;
+      }
 
-  .index-intro {
-    font-size: 1.2rem;
-  }
+      .index-intro {
+        font-size: 1.2rem;
+      }
 
-=======
-  padding-top: 20px;
->>>>>>> d39441b8d7cb3b39328e080186c6598723b53452
+
+    .index-intro {
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 1.5rem;
+    }
+
+    .index-image{
+      height: 180px;
+      width: 180px;
+      border-radius: 90px;
+    }
 }
-
-
-.index-intro {
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 1.5rem;
-}
-
-.index-image{
-  height: 180px;
-  width: 180px;
-  border-radius: 90px;
-}
-
 /* NAVIGATION */
 .nav-con {
     padding-left: 60px;
