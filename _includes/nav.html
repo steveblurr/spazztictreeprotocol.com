@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="nav-con container-fluid">
-        <a class="navbar-brand" href="/">
-          <img src="../images/stp_logo.PNG" width="35" height="30" class="d-inline-block align-top" alt="">steveblurr
+        <a class="navbar-brand navbar-name" href="/">
+          <img src="../images/stp_logo.PNG" width="35" height="30" class="d-inline-block align-top" alt=""> <span class="nav-name">steveblurr</span>
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -12,7 +12,7 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               {% for nav_item in site.data.navigation %}
                 <li class="nav-item">
-                    <a {% if {{nav_item.url}} == {{page.url}} %}class="nav-link active"{% endif %}class="nav-link" aria-current="page" href="{{nav_item.url}}">{{nav_item.title}}</a>
+                    <a {% if {{nav_item.url}} == {{page.url}} %} class="nav-link active" {% endif %} class="nav-link" aria-current="page" href="{{nav_item.url}}">{{nav_item.title}}</a>
                 </li>
               {% endfor %}
             </ul>

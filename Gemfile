@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # GitHUb Pages GEM
 gem "github-pages", "~> 225", group: :jekyll_plugins
-
+#
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 # gem "jekyll", "~> 4.2.1"
