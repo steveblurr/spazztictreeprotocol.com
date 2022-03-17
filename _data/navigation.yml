@@ -1,6 +1,10 @@
 
 - title: Home
+<<<<<<< HEAD
   url: /
+=======
+  url: www.steveblurr.com/
+>>>>>>> 99bf366afacd3069535918b32d82fbd86f1ba300
 
 - title: Blog
   url: /blog
