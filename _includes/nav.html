@@ -4,15 +4,14 @@
           <img src="../images/stp_logo.PNG" width="35" height="30" class="d-inline-block align-top" alt=""> <span class="nav-name">steveblurr</span>
         </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               {% for nav_item in site.data.navigation %}
                 <li class="nav-item">
-                    <a {% if {{nav_item.url}} == {{page.url}} %} class="nav-link active" {% endif %} class="nav-link" aria-current="page" href="{{nav_item.url}}">{{nav_item.title}}</a>
+                    <a {% if {{nav_item.url}} == {{page.url}} %} class="nav-link active"{% endif %}class="nav-link"aria-current="page" href="{{nav_item.url}}">{{nav_item.title}}</a>
                 </li>
               {% endfor %}
             </ul>
