@@ -27,14 +27,21 @@ foot-section {
     padding-top: 40px;
     height: auto;
     text-align: center;
+    padding-bottom: 20px;
   }
 
   .index-name {
-    padding-top: 30px;
+    padding-top: 50px;
     font-family: 'Khand', sans-serif;
-    font-size: 3rem;
+    font-size: 7rem;
     font-weight: 600;
   }
+
+  .index-intro-summary p {
+    font-size: 28px;
+  }
+
+
 }
 
 .main-div {
@@ -56,33 +63,21 @@ foot-section {
 }
 
 
-.intro-div {
-  text-align: center;
+.index-intro-summary p {
+  text-align: left;
+  margin: 30px;
   padding-top: 10px;
+  padding-bottom: 60px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.8rem;
 }
 
-@media only screen and (min-width: 600px){
-      .intro-div {
-        text-align: left;
-        padding-top: 10px;
-      }
-
-      .index-intro {
-        font-size: 1.2rem;
-      }
-
-
-    .index-intro {
-      font-family: 'Titillium Web', sans-serif;
-      font-size: 1.5rem;
-    }
-
-    .index-image{
-      height: 180px;
-      width: 180px;
-      border-radius: 90px;
-    }
+.index-image{
+  height: 190px;
+  width: 190px;
+  border-radius: 90px;
 }
+
 /* NAVIGATION */
 .nav-con {
     padding-left: 60px;
