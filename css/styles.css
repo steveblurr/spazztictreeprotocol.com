@@ -22,31 +22,7 @@ footer {
 }
 
     /* HOME PAGE */
-@media screen and (max-width: 600px) {
-  .nav-con {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
 
-  .main-div {
-    padding-top: 40px;
-    height: auto;
-    text-align: center;
-    padding-bottom: 20px;
-  }
-
-  .index-name {
-    padding-top: 50px;
-    font-family: 'Khand', sans-serif;
-    font-size: 7rem;
-    font-weight: 600;
-  }
-
-  .index-intro-summary p {
-    font-size: 28px;
-  }
-
-}
 
 .main-div {
    padding-top: 50px;
@@ -67,14 +43,19 @@ footer {
 }
 
 
-.index-intro-summary p {
+.index-intro-summary p{
   text-align: left;
   margin: 30px;
   padding-top: 10px;
   padding-bottom: 60px;
+
+}
+
+.index-intro {
   font-family: "Titillium Web", sans-serif;
   font-size: 1.8rem;
 }
+
 
 .index-image{
   height: 190px;
@@ -82,10 +63,45 @@ footer {
   border-radius: 90px;
 }
 
+@media only screen
+      and (min-device-width: 320px)
+      and (max-device-width: 600px)
+      and (-webkit-min-device-pixel-ratio: 2) {
+
+      .main-div {
+        padding-top: 40px;
+        height: auto;
+        text-align: center;
+        padding-bottom: 20px;
+      }
+
+      .index-name {
+        padding-top: 20px;
+        font-family: 'Khand', sans-serif;
+        font-size: 5rem;
+        font-weight: 600;
+      }
+
+      .index-intro{
+        font-size: 1.2rem;
+      }
+
+}
+
 /* NAVIGATION */
 .nav-con {
     padding-left: 60px;
     padding-right: 40px;
+}
+
+@media only screen
+      and (min-device-width: 320px)
+      and (max-device-width: 600px)
+      and (-webkit-min-device-pixel-ratio: 2) {
+        .nav-con {
+            padding-left: 15px;
+            padding-right: 10px;
+        }
 }
 
 .nav-item {
